@@ -4,17 +4,18 @@
 @import "mixins/media";
 
 // Configuration
-@import "config/variables";
-@import "config/reset";
 @import "config/animations";
+@import "config/reset";
+@import "config/variables";
 
 // Components
 @import "components/btn";
+@import "components/empty_state";
 @import "components/error_message";
-@import "components/form";
-@import "components/visually_hidden";
-@import "components/quote";
 @import "components/flash";
+@import "components/form";
+@import "components/quote";
+@import "components/visually_hidden";
 
 // Layouts
 @import "layouts/container";
